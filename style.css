@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+body {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  }
+  
+#countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+#countdown div {
+    margin: 0 10px;
+}
+
+.label {
+    font-size: 14px;
+}
+To create a beautiful text style with a white and pink background, you can update the CSS file. Here's an example:
+
+1. Update the CSS file:
+   - In your `style.css` file, add the following code to set the background and style the text:
+
+```css
+body {
+  background-color: #fffaee;
+  background-image: linear-gradient(to bottom right, #ffafcc, #fffaee);
+  font-family: 'Arial', sans-serif;
+  color: #000000;
+  text-align: center;
+  
+}
+h2{
+    color: #f5576c;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: blanchedalmond;
+    text-shadow: gold;
+    padding: 5px;
+    border-radius: 20px;
+}
+h1 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+#countdown div {
+  margin: 0 10px;
+}
+
+.label {
+  font-size: 14px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+```
+
+2. Save the CSS file.
+
+After making these changes and running the countdown timer in Visual Studio Code, you will have a beautiful text style with a white and pink background. The text will be centered, and the `h1` and `.label` elements will have a text shadow effect for added style. Adjust the colors and text shadow values as desired to achieve the desired effect.
+@font-face {
+    font-family: 'CustomFontName';
+    src: url('fonts/CustomFontName-Regular.ttf') format('truetype');
+  }
+  
+  body {
+    /* ... Existing CSS code ... */
+    font-family: 'CustomFontName', Arial, sans-serif;
+  }
+  
